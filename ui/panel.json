@@ -1,0 +1,22 @@
+{
+  "controls": [
+    {
+      "type": "slider",
+      "key": "amount",
+      "label": "Amount",
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.01,
+      "default": 0.6
+    },
+    {
+      "type": "slider",
+      "key": "wobble",
+      "label": "Tape wobble",
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.01,
+      "default": 0.4
+    }
+  ]
+}

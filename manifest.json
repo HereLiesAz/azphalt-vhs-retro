@@ -1,0 +1,33 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.vhs-retro",
+  "name": "VHS Retro",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "Authentic VHS decay \u2014 scanlines, chroma bleed, edge wobble and tape noise that drift over time like a worn cassette.",
+  "author": "HereLiesAz",
+  "targetApps": [
+    "com.hereliesaz.guillotine"
+  ],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/vhs-retro.fs",
+      "ui": "ui/panel.json",
+      "params": {
+        "format": "isf"
+      },
+      "tags": [
+        "shader",
+        "distortion",
+        "vhs",
+        "retro",
+        "analog",
+        "nostalgic",
+        "one-click"
+      ]
+    }
+  ]
+}
